@@ -14,4 +14,4 @@
 
 
 
-Страница проекта
+Страница проекта: https://zinatrigo.github.io/mesto/
