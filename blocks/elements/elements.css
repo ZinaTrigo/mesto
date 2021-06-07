@@ -1,0 +1,13 @@
+.elements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(282px,282px));
+  justify-content: center;
+  grid-auto-rows: 361px;
+  grid-gap: 21px 18px;
+  row-gap: 20px;
+  column-gap: 18px;
+  margin: 0 auto;
+  max-width: 882px;
+}
+
+

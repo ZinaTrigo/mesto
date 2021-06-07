@@ -1,0 +1,19 @@
+.element__like {
+  background-image: url(../../../images/serdce.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  align-self: center;
+  max-width: 23px;
+  width: 100%;
+  min-height: 19px;
+  margin: 0 30px 3px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.element__like:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+

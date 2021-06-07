@@ -1,0 +1,4 @@
+.element__like_active:active {
+  background-image: url(../../../../images/serdce_chernoe.png);
+  opacity: 1;
+}
