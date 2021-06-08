@@ -1,5 +1,5 @@
 .element__like {
-  background-image: url(../../../images/serdce.png);
+  background-image: url(../../../images/serdce.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   align-self: center;
@@ -17,3 +17,7 @@
   cursor: pointer;
 }
 
+.element__like:active {
+  background-image: url(../../../../images/serdce_chernoe.svg);
+  opacity: 1;
+}
