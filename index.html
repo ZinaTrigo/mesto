@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+  </head>
+
+  <body class=body>
+
+    <div class=page>
+
+      <header class=header>
+        <img class=header__logo src="./images/mesto_logo.svg" alt="логотип место">
+      </header>
+
+      <main class="content">
+
+        <section class="profile">
+
+          <div class="profile__avatar">
+            <img class="profile__image" alt="аватар профиля" src="images/zvezda_lesov.jpg">
+          </div>
+
+          <div class="profile__info">
+            <h1 class="profile__name">Звезда лесов</h1>
+            <button class="profile__edit-button" type="button"></button>
+            <p class="profile__profession">Собиратель дров и лесных фей</p>
+          </div>
+
+          <button class="profile__add-button" type="button"></button>
+
+        </section>
+
+        <section class="elements">
+
+          <div class="element">
+            <img class="element__image" alt="Домбай" src="./images/dombai.png">
+            <h2 class="element__title">Dombai</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+          <div class="element">
+            <img class="element__image" alt="Эльбрус" src="./images/Elbrus.jpg">
+            <h2 class="element__title">Elbrus</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+          <div class="element">
+            <img class="element__image" alt="Карачаево" src="./images/karachaevo.jpg">
+            <h2 class="element__title">Karachaevo</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+          <div class="element">
+            <img class="element__image" alt="Эльбрус" src="./images/Elbrus.jpg">
+            <h2 class="element__title">Elbrus</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+          <div class="element">
+            <img class="element__image" alt="Домбай" src="./images/dombai.png">
+            <h2 class="element__title">Dombai</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+          <div class="element">
+            <img class="element__image" alt="Карачаево" src="./images/karachaevo.jpg">
+            <h2 class="element__title">Karachaevo</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+
+        </section>
+
+        <footer class="footer">
+          <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
+        </footer>
+      </main>
+
+    </div>
+
+    <section class="popup">
+      <form class="popup__container" action="#">
+        <button class="popup__close"></button>
+        <div class="popup__content">
+          <h3 class="popup__title">Редактировать профиль</h3>
+          <input class="popup__input popup__text popup__user-name" id="user-name-input" name="name" placeholder="Имя">
+          <input class="popup__input popup__text popup__user-description" name="about" placeholder="О себе">
+          <button class="popup__save-button" type="button">Сохранить</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="./scripts/popup.js"></script>
+
+  </body>
+
+</html>
