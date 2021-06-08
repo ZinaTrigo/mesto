@@ -21,7 +21,6 @@
   .popup__close {
       width: 42px;
       height: 42px;
-      top: -35px;
-      right: -35px;
+      right: -10px;
   }
 }
