@@ -1,13 +1,13 @@
 let openPopup = document.querySelector(".profile__edit-button");
 let popup = document.querySelector(".popup");
-let closePopup = document.querySelector(".popup__close");
+let closePopup = popup.querySelector(".popup__close");
 
 let profileName = document.querySelector(".profile__name");
 let profileProfession = document.querySelector(".profile__profession");
 
-let formElement = document.querySelector(".popup__container");
-let nameInput = document.querySelector(".popup__user-name");
-let professionInput = document.querySelector(".popup__user-description");
+let formElement = popup.querySelector(".popup__container");
+let nameInput = popup.querySelector(".popup__input_user-name");
+let professionInput = popup.querySelector(".popup__input_user-description");
 
 function popupOpen() {
   nameInput.value = profileName.textContent;
