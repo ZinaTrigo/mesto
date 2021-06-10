@@ -6,8 +6,8 @@ let profileName = document.querySelector(".profile__name");
 let profileProfession = document.querySelector(".profile__profession");
 
 let formElement = popup.querySelector(".popup__container");
-let nameInput = popup.querySelector(".popup__input_user-name");
-let professionInput = popup.querySelector(".popup__input_user-description");
+let nameInput = popup.querySelector(".popup__input_user_user-name");
+let professionInput = popup.querySelector(".popup__input_user_user-description");
 
 function popupOpen() {
   nameInput.value = profileName.textContent;
